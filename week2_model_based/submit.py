@@ -1,10 +1,9 @@
-import numpy as np
-
-from mdp import MDP, FrozenLakeEnv
-
 import sys
+import numpy as np
 sys.path.append("..")
 import grading
+
+from mdp import MDP, FrozenLakeEnv
 
 
 def submit_assigment(
